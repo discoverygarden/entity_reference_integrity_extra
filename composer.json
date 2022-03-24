@@ -1,5 +1,6 @@
 {
   "name": "discoverygarden/entity_reference_integrity_extra",
   "require": {
+    "drupal/entity_reference_integrity": "^1.1"
   }
 }
