@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\islandora_spreadsheet_ingest_referential_integrity;
+namespace Drupal\entity_reference_integrity_extra;
 
 use Drupal\entity_reference_integrity\DependencyFieldMapGenerator as UpstreamDependencyFieldMapGenerator;
 use Drupal\entity_reference_integrity\DependencyFieldMapGeneratorInterface;
