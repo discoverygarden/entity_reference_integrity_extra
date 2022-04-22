@@ -1,0 +1,6 @@
+name: 'Entity Reference Integrity Extra'
+description: "More referential integrity."
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - entity_reference_integrity:entity_reference_integrity
