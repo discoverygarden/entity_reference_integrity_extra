@@ -115,7 +115,7 @@ class DependencyFieldMapGenerator implements DependencyFieldMapGeneratorInterfac
    */
   public function getReferencingFields($entity_type_id) {
     $map = $this->getReferentialFieldMap();
-    return isset($map[$entity_type_id]) ? $map[$entity_type_id] : [];
+    return $map[$entity_type_id] ?? [];
   }
 
 }
