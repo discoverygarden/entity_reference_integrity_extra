@@ -1,6 +1,7 @@
 {
   "name": "discoverygarden/entity_reference_integrity_extra",
   "type": "drupal-module",
+  "license": "GPL-3.0-or-later",
   "require": {
     "drupal/entity_reference_integrity": "^1.1"
   }
