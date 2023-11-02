@@ -28,7 +28,7 @@ class DependencyFieldMapGenerator implements DependencyFieldMapGeneratorInterfac
    *
    * @var \Drupal\Core\Field\FieldTypePluginManagerInterface
    */
-  protected FieldTypePluginManagerInterface $fieldTypePluginManger;
+  protected FieldTypePluginManagerInterface $fieldTypePluginManager;
 
   /**
    * The entity field manager service.
