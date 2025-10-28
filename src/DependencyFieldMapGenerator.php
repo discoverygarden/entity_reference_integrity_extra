@@ -58,7 +58,7 @@ class DependencyFieldMapGenerator implements DependencyFieldMapGeneratorInterfac
     DependencyFieldMapGeneratorInterface $inner,
     FieldTypePluginManagerInterface $field_type_plugin_manager,
     EntityFieldManagerInterface $entity_field_manager,
-    EntityTypeManagerInterface $entity_type_manager
+    EntityTypeManagerInterface $entity_type_manager,
   ) {
     $this->inner = $inner;
     $this->fieldTypePluginManager = $field_type_plugin_manager;
